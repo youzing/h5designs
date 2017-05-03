@@ -1,0 +1,373 @@
+body {
+    background-color: #000;
+    color: #02016d;
+    font-family: "Helvetica Neue",Helvetica,"Microsoft YaHei",'微软雅黑',arial,sans-serif;
+}
+.first{
+	position: relative;
+}
+.fimg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+}
+.fimg img{
+	width: 100%;
+	height: 100%;
+}
+.fborder{
+    width: 86%;
+    margin: auto;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    height: 94%;
+    padding-top: 10%;
+}
+.fborder img{
+	position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: 140;
+}
+.fborderone{
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+.fcontent img{
+	z-index: 102;
+	width: 100%;
+    height: 100%;
+}
+.fcontent{
+	position: absolute;
+    padding-top: 10%;
+    left: 7%;
+    width: 86%;
+    height: 89%;
+}
+.png{
+	position: absolute;
+	z-index: 103;
+}
+.png img{
+	width: 100%;
+	height: 100%;
+}
+.fimg-1{
+	padding: 7%;
+	left: 10%;
+}
+.fimg-7{
+	top: 10%;
+    left: 2%;
+}
+.fimg-5{
+	top: 60%;
+    left: 1%;
+}
+.fimg-6{
+	right: 2%;
+    top: 50%;
+}
+.fimg-2{
+    right: 2%;
+    top: 70%;
+}
+
+.fimg-8{
+    top: 20%;
+    left: 5%;
+}
+.fimg-3{
+	left: 14%;
+    top: 30%;
+}
+.fimg-31{
+	left: 20%;
+    top: 10%;
+}
+.fimg-4{
+    right: 14%;
+    top: 30%;
+}
+.fimg-14{
+    right: 2%;
+    top: 2%;
+}
+.fimg-41{
+    right: 20%;
+    top: 15%;
+}
+.ffound{
+	position: absolute;
+    bottom: 0;
+    height: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.ffound-img{
+	top: 0;
+    width: 80%;
+    left: 10%;;
+}
+.ffont{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    bottom: 0;
+    font-family: "黑体";
+}
+.ffind{
+	position: absolute;
+    padding-top: 10%;
+    top: 4%;
+    width: 100%;
+    text-align: center;
+}
+.found-1{
+	position: absolute;
+    margin: auto;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    top: 15%;
+}
+.found{
+	position: relative;
+	bottom: 34%;
+}
+.found-img1{
+    position: absolute;
+    z-index: 100;
+    top: 20%;
+    left: 12%;
+    width: 80%;
+}
+.found-font{
+	width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: 10%;
+}
+.dream{
+	position: relative;
+    bottom: 18%;
+}
+.dfont{
+    width: 100%;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.5rem;
+}
+.aboutus{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+    z-index: 105;
+    letter-spacing: 2px;
+}
+.environment{
+	position: absolute;
+    top: 25%;
+    left: 5%;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.environment img{
+	width: 30%;
+	padding: 2px;
+	display:block;
+}
+.environment-1{
+	top: 44%;
+    width: 88%;
+    left: 5%;
+    padding: 2px;
+}
+.join{
+	width: 100%;
+    text-align: center;
+    bottom: 1.5rem;
+    font-size: 0.8rem;
+    position: absolute;
+}
+.employ{
+	position: absolute;
+    top: 26%;
+    left: 4%;
+    width: 80%;
+}
+.employ-img{
+	width: 100%;
+    height: 1.2rem;
+}
+.employ-font{
+	text-align: center;
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    top: 18%;
+    font-size: 0.5rem;
+}
+.emabout{
+	position: absolute;
+    top: 35%;
+    left: 4%;
+    width: 90%;
+    z-index: 110;
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+}
+.emimg{
+	position: absolute;
+    bottom: 5%;
+    z-index: 2;
+    opacity: 0.5;
+    width: 100%;
+}
+.map{
+	    position: absolute;
+    top: 30%;
+    width: 80%;
+    left: 10%;
+}
+.info{
+	    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+    letter-spacing: 2px;
+}
+.fborderone{
+    -webkit-animation: puffIn 1s ease 0s 1 both;
+    -moz-animation: puffIn 1s ease 0s 1 both;
+    animation: puffIn 1s ease 0s 1 both;
+}
+.fborder img{
+    -webkit-animation: flipInY 1s ease 0s 1 both;
+    -moz-animation:flipInY 1s ease 0s 1 both;
+    animation:flipInY 1s ease 0s 1 both;
+}
+
+.fcontent{
+        -webkit-animation: flipInX 1s ease 0s 1 both;
+    -moz-animation:flipInX 1s ease 0s 1 both;
+    animation:flipInX 1s ease 0s 1 both;
+}
+
+.fimg-3{
+    -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.fimg-4{
+    -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.fimg-8{
+    -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.fimg-31{
+    -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.fimg-41{
+    -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.ffind{
+        -webkit-animation:bounceInUp 1s ease 0s 1 both;
+    -moz-animation:bounceInUp 1s ease 0s 1 both;
+    animation:bounceInUp 1s ease 0s 1 both;
+}
+.found-1{
+        -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.found-img1{
+            -webkit-animation:bounceInUp 1s ease 0.5s 1 both;
+    -moz-animation:bounceInUp 1s ease 0.5s 1 both;
+    animation:bounceInUp 1s ease 0.5s 1 both;
+}
+.dfont span{
+                -webkit-animation:bounceIn 1s ease 1s 1 both;
+    -moz-animation:bounceIn 1s ease 1s 1 both;
+    animation:bounceIn 1s ease 1s 1 both;
+}
+.ffound{
+ -webkit-animation: bounceInDown 1s ease 0s 1 both;
+    -moz-animation:bounceInDown 1s ease 0s 1 both;
+    animation:bounceInDown 1s ease 0s 1 both;
+}
+.employ{
+     -webkit-animation: bounceInUp 1s ease 0.5s 1 both;
+    -moz-animation:bounceInUp 1s ease 0.5s 1 both;
+    animation:bounceInUp 1s ease 0.5s 1 both;
+}
+.emabout{
+   
+    -webkit-animation:  bounceIn 1s ease 1s 1 both;
+    -moz-animation: bounceIn 1s ease 1s 1 both;
+    animation: bounceIn 1s ease 1s 1 both;
+}
+.info{   
+    -webkit-animation:  bounceIn 1s ease 1s 1 both;
+    -moz-animation: bounceIn 1s ease 1s 1 both;
+    animation: bounceIn 1s ease 1s 1 both;
+
+}
+.aboutus{
+    -webkit-animation:  bounceIn 1s ease 1s 1 both;
+    -moz-animation: bounceIn 1s ease 1s 1 both;
+    animation: bounceIn 1s ease 1s 1 both;
+}
+.emimg{
+       -webkit-animation: bounceInUp 1s ease 1s 1 both;
+    -moz-animation: bounceInUp 1s ease 1s 1 both;
+    animation: bounceInUp 1s ease 1s 1 both;
+}
+.swipedown{
+        position: absolute;
+    width: 1.2rem;
+    height: .9rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+/*    bottom: .5rem;*/
+    background: url(../images/swipe.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: webSwipeTipAfter 2s infinite ease;
+    animation: webSwipeTipAfter 2s infinite ease;
+    z-index: 150;
+}
