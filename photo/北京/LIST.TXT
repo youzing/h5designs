@@ -1,0 +1,8 @@
+111.jpg
+222.jpg
+333.jpg
+444.jpg
+555.jpg
+666.jpg
+LIST.TXT
+提取文件名.bat

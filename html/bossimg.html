@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta charset="UTF-8">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link  rel="stylesheet" href="../css/boss.css" />
+    <link  rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="../css/wf.css">
+    <script src="../js/jquery.min.js"></script>
+    <title>老板来了</title>
+    <style>
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color:#000;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 40%;
+            margin: 20px auto;
+            position: fixed;
+            top: 30%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+    <link  rel="stylesheet" href="css/animation.css" />
+</head>
+<body id="bodys">
+<div class="imgsquare">
+
+    <div class="container">
+        <div class="content"></div>
+        <!--<div class='load-more'>加载更多</div>-->
+
+            <a href="www.xiaoyi.com/jump_tm_action.html?action=2017-07-04" class="buyone ">  <div class="buy">
+      <img src="../images/yin.png" alt="" >     <div class="buynow"> 立即购买小蚁微单相机</div>
+            </div></a>
+
+    </div>
+
+    <div class="mask" id="maskp"  style="display: none">
+    </div>
+    <div class="swiper-container" id="swiperp" style="display: none">
+        <div class="swiper-wrapper">
+
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="../js/wf.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/swiper-3.4.2.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container'
+        ,{
+    pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 10,
+//        loop: true,
+            slideToClickedSlide: true,
+            observer:true,//修改swiper自己或子元素时，自动初始化swiper
+            observeParents:true//修改swiper的父元素时，自动初始化swiper
+    }
+    );
+//    $('div[class^="wf-item"]').click(function(){
+//        autoPlay
+//    });
+
+</script>
+<script>
+    $(document).on("click", ".wf-item" ,function(e){
+
+        var dataArrs = [[
+            // 澳门
+            '../photo/11.jpg',
+            '../photo/22.jpg',
+            '../photo/3.jpg',
+            '../photo/4.jpg'],
+            [
+                // 北京
+            '../photo/111.jpg',
+            '../photo/222.jpg',
+            '../photo/333.jpg',
+            '../photo/444.jpg',
+            '../photo/666.jpg',
+            '../photo/555.jpg'],
+            [
+                // 冰岛
+            '../photo/P9040197.jpg',
+            '../photo/P9050225.jpg',
+            '../photo/P9050262.jpg',
+            '../photo/P9080510.jpg',
+            '../photo/P9121045.jpg',
+            '../photo/P9140052.jpg'],
+            [
+                // 丹麦
+            '../photo/P1140087.jpg',
+            '../photo/P1140102.jpg',
+            '../photo/P1150124.jpg',
+            '../photo/P1150141.jpg',
+            '../photo/P1160262.jpg',
+            '../photo/P1160306.jpg',
+            '../photo/P1160327.jpg',
+            '../photo/020058.jpg',
+            '../photo/P1160341.jpg']
+
+
+            ,[
+                //意大利
+                '../photo/P6120222.jpg',
+                '../photo/P6150456.jpg',
+                '../photo/P6150489.jpg',
+                '../photo/P6150490.jpg',
+                '../photo/P6150535.jpg',
+                '../photo/P6150567.jpg',
+                '../photo/P6160631.jpg',
+                '../photo/P6180869.jpg'],
+
+
+            [
+                // 桂林
+            '../photo/1111.jpg',
+            '../photo/2222.jpg',
+            '../photo/3333.jpg',
+            '../photo/4444.jpg'],
+            [
+                //韩国
+            '../photo/020061.jpg',
+
+            '../photo/2260003.jpg',
+            '../photo/2260005.jpg',
+            '../photo/2260009.jpg',
+            ],
+            //马来西亚
+            [
+                '../photo/P6210002.jpg',
+                '../photo/P6220070.jpg',
+                '../photo/P6220072.jpg',
+                '../photo/P6230110.jpg',
+                '../photo/P6240128.jpg',
+                '../photo/P6240143.jpg'],         [
+                    //柬埔寨
+              '../photo/0550.jpg',
+                '../photo/0551.jpg',
+                '../photo/0554.jpg',
+                '../photo/0555.jpg',
+                '../photo/0557.jpg',
+                '../photo/0558.jpg'],
+
+            [
+                //上海
+                '../photo/P8120323.jpg',
+                '../photo/P8120334.jpg',
+                '../photo/P8120391.jpg',
+                '../photo/P8130540.jpg'],
+                [
+
+                    //台湾
+                    ' ../photo/P3110010.jpg',
+                    '../photo/P31100101.jpg',
+                    '../photo/P31100102.jpg',
+                    '../photo/P311001021.jpg',
+                    '../photo/P3110016-1.jpg',],
+                [
+                    //乌克兰
+                '../photo/P8120140.jpg',
+                '../photo/P8120229.jpg',
+                '../photo/P8120244.jpg',
+                '../photo/P8120301.jpg',
+                '../photo/P8130506.jpg'],
+
+            [
+                //西藏
+                '../photo/PC090025.jpg',
+                '../photo/PC090028.jpg',
+                '../photo/PC090045.jpg',
+                '../photo/PC090060.jpg',
+                '../photo/PC210416.jpg',
+                '../photo/PC220497.jpg',
+                '../photo/PC230590.jpg',
+
+                '../photo/PC260966.jpg'],
+            [
+                //德国
+                '../photo/IMG_9623.jpg',
+                '../photo/IMG_9626.jpg',
+                '../photo/IMG_9629.jpg',
+                '../photo/IMG_9630.jpg',
+                '../photo/IMG_9632.jpg',
+                '../photo/IMG_9633.jpg',
+                '../photo/IMG_9635.jpg',
+                '../photo/IMG_9636.jpg'
+            ],
+            [
+                //西班牙
+                '../photo/IMG_9697.jpg',
+                '../photo/IMG_9700.jpg',
+                '../photo/IMG_9701.jpg',
+                '../photo/IMG_9702.jpg',
+                '../photo/IMG_9703.jpg',
+                '../photo/IMG_9706.jpg',
+                '../photo/IMG_9708.jpg'
+            ],
+            [
+                //泰国
+            '../photo/IMG_8666.jpg',
+            '../photo/IMG_8668.jpg',
+            '../photo/IMG_8669.jpg',
+            '../photo/IMG_8670.jpg',
+            '../photo/IMG_8673.jpg']
+        ];
+        var id =    $(e.target).context.attributes.data.textContent;
+        var dataswipe = dataArrs[id];
+//        if(ids>=5&&ids<(dataArrs.length-5)){
+//            for( var i=0;i<5;i++){
+//                dataswipe.push(dataArrs[ids+i]);
+//            }
+//            for( var j=1;j<6;j++){
+//                dataswipe.push(dataArrs[ids-j]);
+//            }
+//        }else if(ids<5){
+//            for (var k=0;k<10-ids;k++){
+//                dataswipe.push(dataArrs[ids+k]);
+//            }
+//            for (var l=0;l<ids;l++){
+//                dataswipe.push(dataArrs[ids-l-1]);
+//            }
+//        }else{
+//            for (var o=0;o<dataArrs.length-ids;o++){
+//                dataswipe.push(dataArrs[ids+o]);
+//            }
+//            for (var p=(dataArrs.length-9);p<ids;p++){
+//                dataswipe.push(dataArrs[ids-p]);
+//            }
+//        }
+//        console.log(dataswipe);
+
+        document.getElementById("maskp").style.display ="block";
+        document.getElementById("swiperp").style.display ="block";
+        $("#bodys").css('overflow-y','hidden');
+//        if(control=1){
+        for(var aa = 0 ;aa<dataswipe.length;aa++) {
+            swiper.appendSlide('<div class="swiper-slide" style=""><img src="' + dataswipe[aa] + '" alt=""></div>');
+        }
+//        }
+    });
+
+    $(document).on("click", ".mask" ,function(e){
+        document.getElementById("maskp").style.display ="none";
+        document.getElementById("swiperp").style.display ="none";
+        swiper.removeAllSlides();
+        $("#bodys").css('overflow-y','auto');
+    });
+
+</script>
+</body>
+</html>

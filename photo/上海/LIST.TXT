@@ -1,0 +1,6 @@
+LIST.TXT
+P8120323.jpg
+P8120334.jpg
+P8120391.jpg
+P8130540.jpg
+提取文件名.bat

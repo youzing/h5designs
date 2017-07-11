@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta charset="UTF-8">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link  rel="stylesheet" href="../css/boss.css" />
+    <link  rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/wf.css">
+    <script src="../js/jquery.min.js"></script>
+    <title>老板来了</title>
+    <style>
+        *{padding: 0;margin: 0;}
+        /*框架*/
+        html{-ms-touch-action: none;}/* 禁止winphone默认触摸事件 */
+        body{overflow-x: hidden;}
+        /*.page-wrap{overflow:hidden}*/
+        /*.page{display:none;width:100%;height:100%;overflow:hidden;position:absolute;top:0;left:0}*/
+        /*.contain{width:100%;height:100%;display:none;position:relative;z-index:0}*/
+        /*.current .contain,.slide .contain{display:block}*/
+        /*.current{display:block;z-index:1}*/
+        /*.slide{display:block;z-index:2}*/
+        /*.swipe{display:block;z-index:3;transition-duration:0ms!important;-webkit-transition-duration:0ms!important}*/
+    </style>
+    <link  rel="stylesheet" href="css/animation.css" />
+</head>
+<body>
+<div class="first" id="firstp"  style="display: none"   >
+    <div style="opacity: 0" class="pics">
+        1234567890
+    </div>
+<img src="../images/logo1.png" alt="" class="firstlogo">
+    <div class="middle">
+        <div class="yins">
+            <img src="../images/yin.png" alt="" class="yin">
+        </div>
+        <div class="loading">
+            <div class="loadcon cssbb0e6670e193d4">小蚁微单相机 带你去看全世界.</div>
+            <div class="load1">
+            <div class="load2">
+                <img src="../images/huang.png" alt=""  class="loadimgs">
+                <img src="../images/loading1.png" alt=""  class="loadimg">
+            </div>
+                <div class="loadcon1">
+                    <span  id="loadcos">1</span>%
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="name" style="display: none" id="namep">
+    <div class="test">
+        <div class="in">输入姓名或昵称</div>
+        <input type="text"  class="inname" >
+        <div class="to">测一测老板请你去？</div>
+        <div class="testbut">测</div>
+    </div>
+
+</div>
+<div class="piclarge" id="piclargep">
+    <span style="display: block;opacity:0;position: absolute;" class="addressfont pics">澳门北京冰岛丹麦桂林韩国黑龙江柬埔寨马来西亚上海台湾泰国乌克兰西藏意大利查看加载立即购买</span>
+
+    <div class="pic">
+        <div class="pictop">
+            <div class="giveit">
+                <img src="../images/point.png" alt="" class="pointl">
+
+            </div>
+        <div class="content1  tops">老板请你去 <span style="font-family: Microsoft YaHei;font-size:14px";>___________________</span>  <span id="address" class="addressfont pics">桂林</span> </div>
+        <div class="content3 tops"> 快快告诉你的老板和同事。</div>
+        </div>
+        <div class="imgcontain">
+            <div class="lpic"></div>
+            <div  class="rpic"></div>
+            <img src="../photo/555.jpg" alt="" class="backimg" id="backimgab">
+        </div>
+        <div class="picbottom">
+            <div class="contentpics">
+                <img src="../images/yin.png" alt=""></div>
+        <div class="content4 else">点击查看更多地区样片</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+//    window.onload=function(){
+//        var timer1 =   setInterval(function () {
+//            var t = document.getElementById("loadcos").innerText;
+//            t = parseInt(t);
+//            if(t <100){
+//                t=t+1;
+//                old = t;
+//                document.getElementById("loadcos").innerText = t;
+//            }else if(t=100){
+//                clearInterval(timer1);
+//                return;
+//            }
+//            //t未发生改变的话就直接返回
+//            //避免调用text函数，提高DOM性能
+//        }, 30);
+//        setTimeout(timer1
+//  ,500);
+//        setTimeout(
+//            function () {
+//                document.getElementById("firstp").style.display ="none";
+//                document.getElementById("namep").style.display ="block";
+//            },4000);
+//    };
+    $('.testbut').click(function () {
+         var value = $(".inname").val();
+
+         if (value != ""){
+             document.getElementById("namep").style.display ="none";
+             document.getElementById("piclargep").style.display ="block";
+             var imgsrc = [{add:"澳门",imgback:"../photo/22.jpg"},
+                 {add:"北京",imgback:"../photo/555.jpg"},
+                 {add:"冰岛",imgback:"../photo/P9050262.jpg"},
+                 {add:"丹麦",imgback:"../photo/P1140102.jpg"},
+                 {add:"桂林",imgback:"../photo/1111.jpg"},
+                 {add:"韩国",imgback:"../photo/2260009.jpg"},
+                 {add:"黑龙江",imgback:"../photo/1a.jpg"},
+                 {add:"柬埔寨",imgback:"../photo/0558.jpg"},
+                 {add:"马来西亚",imgback:"../photo/P6240128.jpg"},
+                 {add:"上海",imgback:"../photo/P8120334.jpg"},
+                 {add:"台湾",imgback:"../photo/P3120043.jpg"},
+                 {add:"泰国",imgback:"../photo/IMG_8670.jpg"},
+                 {add:"乌克兰",imgback:"../photo/P8120140.jpg"},
+                 {add:"西藏",imgback:"../photo/PC220497.jpg"},
+                 {add:"意大利",imgback:"../photo/P6150535.jpg"}];
+                  var ran = Math.floor(Math.random()*15);
+             document.getElementById("address").innerText = imgsrc[ran].add;
+                 $("#backimgab").attr("src",imgsrc[ran].imgback);
+                          }else {
+             alert("请输入你的名字");
+             return;
+         }
+    });
+    $('.content4').click(function () {
+        window.location="bossimg.html";
+    });
+
+
+ </script>
+</body>
+</html>
